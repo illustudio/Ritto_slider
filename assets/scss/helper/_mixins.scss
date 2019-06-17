@@ -1,0 +1,12 @@
+@mixin basic-border {
+    border:1px solid $light-gray;
+}
+
+@mixin clearfix {
+    &:after{
+        clear:both;
+        width:100%;
+        display:table;
+        content:'';
+    }
+}
